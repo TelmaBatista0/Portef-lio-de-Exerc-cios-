@@ -1,0 +1,26 @@
+{
+  "name": "ficha3",
+  "version": "1.0.0",
+  "description": "Ficha 3 em EJS e Bootstrap de programação II",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "PII",
+    "ficha3",
+    "EJS"
+  ],
+  "author": "telma",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.8",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1",
+    "nodemon": "^3.1.10"
+  }
+}

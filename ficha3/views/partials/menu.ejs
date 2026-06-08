@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+
+        <!-- Título -->
+        <a class="navbar-brand" href="/">Minha Página</a>
+
+        <!-- Botão de collapse -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " home" ? "active" : "" %> " href="/">Início</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " students-list" ? "active" : "" %> "
+                        href="/estudantes">Listar Estudante</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " students-create" ? "active" : "" %> "
+                        href="/estudantes/novo">Criar Estudantes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " ex6" ? "active" : "" %> "
+                        href="/ex6">Ex6</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " ex7" ? "active" : "" %> "
+                        href="/ex7">Ex7</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " ex8" ? "active" : "" %> "
+                        href="/ex8">Ex8</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " ex9" ? "active" : "" %> "
+                        href="/ex9">Ex9</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= activePage ===  " ex10" ? "active" : "" %> "
+                        href="/ex10">Ex10</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
